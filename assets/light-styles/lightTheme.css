@@ -15,6 +15,10 @@
   min-height: 550px;
 }
 
+.knowledges h2, .projects h2 {
+  color: white;
+}
+
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,6 +148,10 @@
   min-height: 550px;
 }
 
+.knowledges h2, .projects h2 {
+  color: white;
+}
+
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,6 +185,10 @@
   min-height: 550px;
 }
 
+.knowledges h2, .projects h2 {
+  color: white;
+}
+
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,6 +207,10 @@
 
 .knowledges {
   background-color: #081C15 !important;
+}
+
+.knowledges h2 {
+  color: white;
 }
 
 footer {
@@ -268,6 +284,14 @@ footer {
 
 .knowledges {
   background-color: #1da3fd !important;
+}
+
+.knowledges h2 {
+  color: black;
+}
+
+.knowledges h2, .projects h2 {
+  color: black;
 }
 
 .row {

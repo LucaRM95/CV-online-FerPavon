@@ -113,6 +113,10 @@
   min-height: 550px;
 }
 
+.projects h2, .knowledges h2 {
+  color: white;
+}
+
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,6 +150,10 @@
   min-height: 550px;
 }
 
+.projects h2, .knowledges h2 {
+  color: white;
+}
+
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,6 +172,10 @@
 
 .knowledges {
   background-color: #081C15 !important;
+}
+
+.knowledges h2 {
+  color: white;
 }
 
 footer {

@@ -40,10 +40,16 @@ footer{
 .knowledges{
     @extend .projects;
     background-color: $primary_color !important;
+    h2{
+        color: black;
+    }
 }
 
 .projects{
     @extend .projects;
+    h2{
+        color: black;
+    }
 }
 
 .row{

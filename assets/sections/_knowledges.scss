@@ -3,4 +3,7 @@
 .knowledges{
     @extend .projects;
     background-color: #081C15 !important;
+    h2{
+        color: white;
+    }
 }
