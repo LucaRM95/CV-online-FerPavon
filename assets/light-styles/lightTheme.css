@@ -1,0 +1,327 @@
+.knowledges, .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 550px;
+}
+
+.projects__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 325px;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-header {
+  background-color: #0F2027;
+  background-image: linear-gradient(50deg, rgba(27, 67, 50, 0.9) 0%, rgba(8, 28, 21, 0.9) 100%), url("../img/web-developer2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 25rem;
+}
+
+.main-header__content {
+  color: white;
+  text-align: center;
+}
+
+.main-header__content--titles {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main-header__content--span {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.main-header .buttons {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(16, 139, 78, 0.35);
+  border-radius: 25px;
+}
+
+.main-header .buttons .btn-color {
+  color: transparent;
+  border: none;
+  border-radius: 200px;
+  width: auto;
+}
+
+.main-header .buttons .btn-color #sun_btn {
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+.main-header .buttons .btn-color #moon_btn {
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+.main-header .buttons__unactive {
+  background-color: #444 !important;
+}
+
+.main-header .buttons__active {
+  background-color: #d3d62c !important;
+}
+
+.about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100% !important;
+  background-color: #081C15;
+  min-height: 530px;
+  color: white;
+}
+
+.about-me h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.about-me p {
+  width: 60%;
+}
+
+.knowledges, .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 550px;
+}
+
+.projects__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 325px;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.knowledges, .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 550px;
+}
+
+.projects__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 325px;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.knowledges {
+  background-color: #081C15 !important;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #212529;
+  min-height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 25%;
+}
+
+footer div a img {
+  width: 45px;
+  height: 45px;
+}
+
+footer div a:hover {
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.main-header {
+  background-color: #61bdfb;
+  background-image: linear-gradient(50deg, rgba(97, 189, 251, 0.9) 0%, rgba(29, 163, 253, 0.9) 100%), url("../img/web-developer2.jpg");
+  color: black;
+}
+
+.main-header__content {
+  color: black;
+}
+
+.main-header__content--span {
+  font-size: 20px;
+  color: #444;
+}
+
+.main-header .buttons {
+  background-color: #1772af;
+}
+
+.about-me {
+  background-color: #1da3fd;
+  color: black;
+}
+
+footer {
+  background-color: #ffffff;
+  color: black;
+}
+
+.knowledges {
+  background-color: #1da3fd !important;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/*responsive*/
+@media (min-width: 768px) {
+  .row-cols-md-3 > * {
+    width: 27.333333%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    min-height: 30rem;
+  }
+  .knowledges, .projects {
+    min-height: 1300px;
+  }
+  .knowledges {
+    min-height: 900px;
+  }
+  footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .about-me {
+    min-height: 600px;
+  }
+}
+
+body {
+  background-color: #1da3fd;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=lightTheme.css.map */

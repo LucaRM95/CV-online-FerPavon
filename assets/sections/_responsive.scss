@@ -1,0 +1,36 @@
+@media (min-width: 768px){
+    .row-cols-md-3>* {
+        width: 27.333333%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 30rem;
+    }
+    
+    .projects{
+        min-height: 1300px;
+    }
+
+    .knowledges{
+        min-height: 900px;
+    }
+
+    footer{
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .about-me{
+        min-height: 600px;
+    }
+}

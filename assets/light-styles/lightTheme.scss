@@ -1,0 +1,11 @@
+@import '../sections/themes';
+
+/*responsive*/
+@import '../sections/responsive';
+
+body{
+    background-color: rgb(29, 163, 253);
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}

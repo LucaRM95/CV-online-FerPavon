@@ -1,0 +1,53 @@
+.main-header{
+    background-color: #0F2027;
+    background-image: linear-gradient(50deg, rgba(27, 67, 50, 0.9) 0%, rgba(8, 28, 21, 0.9) 100%), url("../img/web-developer2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 25rem;
+    &__content{
+        color: white;
+        text-align: center;
+        &--titles{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        &--span{
+            font-size: 20px;
+            color: #ccc;
+        }
+    }
+
+    .buttons{
+        width: fit-content;
+        background-color: rgba(16, 139, 78, 0.35);
+        border-radius: 25px;
+        .btn-color{
+            color: transparent;
+            border: none;
+            border-radius: 200px;
+            width: auto;  
+            #sun_btn{
+                background-color: transparent;
+                border-radius: 100px;
+            }
+            #moon_btn{
+                background-color: transparent;
+                border-radius: 100px;
+            }
+        }
+        &__unactive{
+            background-color: #444 !important;
+        }
+        &__active{
+            background-color: #d3d62c !important;
+        }
+    }
+      
+      
+      
+}

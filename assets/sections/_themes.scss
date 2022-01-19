@@ -1,0 +1,51 @@
+@import './projects';
+@import './header';
+@import './about-me';
+@import './projects';
+@import './knowledges';
+@import './footer';
+
+$primary_color: rgb(29, 163, 253);
+$secondary_color: #ffffff;
+
+.main-header{
+    @extend .main-header;
+    background-color: rgb(97, 189, 251);
+    background-image: linear-gradient(50deg, rgba(97, 189, 251, 0.9) 0%, rgba(29, 163, 253, 0.9) 100%), url('../img/web-developer2.jpg');
+    color: black;
+    &__content{
+        color: black;
+        &--span{
+            font-size: 20px;
+            color: #444;
+        }
+    }
+    .buttons{
+        background-color: rgb(23, 114, 175);
+    }
+}
+
+.about-me{
+    @extend .about-me;
+    background-color: $primary_color;
+    color: black;
+}
+
+footer{
+    @extend footer;
+    background-color: $secondary_color;
+    color: black;
+}
+
+.knowledges{
+    @extend .projects;
+    background-color: $primary_color !important;
+}
+
+.projects{
+    @extend .projects;
+}
+
+.row{
+    justify-content: space-around;
+}

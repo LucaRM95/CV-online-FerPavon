@@ -1,0 +1,26 @@
+@import "./variables/colors";
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $secondary_color;
+    min-height: 200px;
+    align-items: center;
+    color: white;
+    div{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        a{
+            img{
+                width: 45px;
+                height: 45px;
+            }
+        }
+        a:hover{
+            transition: 300ms all;
+            transform: scale(1.2, 1.2);
+        }
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link id="bg-theme" rel="stylesheet" href="./assets/styles/main.css">
+
+  <link rel="shortcut icon" href="./assets/img/F.jpg">
+  <title>Portafolio personal</title>
+</head>
+<body>
+    <header class="main-header">
+       <div class="main-header__content animate__animated animate__fadeInLeft ms-3"> 
+            <img src="./assets/img/I.jpg" class="rounded-circle">
+            <h1 class="main-header__content--titles">Fernando Gastón Pavón</h1>
+            <span class="main-header__content--span">Desarrollador JavaScript y PHP</span>
+        </div>
+
+        <div class="buttons me-3 animate__animated animate__fadeInRight">       
+          <button type="submit" class="btn-color btn-sun buttons__unactive">
+           
+            <div id="sun_btn">
+              <img src="./assets/img/sun.png" class="icon" width="40px"/>
+            </div>
+            
+          </button>
+          <button type="submit" class="btn-color btn-moon buttons__active">
+           
+            <div id="moon_btn">
+              <img src="./assets/img/moon.png" class="icon" width="40px"/>
+            </div>
+            
+          </button>
+         </div> 
+
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-me">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#knowledges">Conocimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <section id="about-me" class="about-me">
+            <h2 class="animate__animated animate__fadeInRight">Sobre mí</h2>
+            <p class="animate__animated animate__fadeInRight">
+                Soy un desarrollador de aplicaciones web especializado en desarrollo back end con PHP, Laravel y Bases de Datos Relacionales y Bases de Datos NoSQL. Tambien tengo conocimientos de desarrollo front end con JavaScript y diseño de páginas web utilizando algunas herramientas de diseño gráfico como Adobe Illustrator y Photoshop para darle una estética llamativa a los sitios que hago.
+            </p>
+        </section>
+
+        <section id="projects" class="projects bg-dark">
+
+          <h2>Proyectos</h2>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" data-aos="flip-left">
+              <div class="card h-100">
+                <img src="./assets/img/cal.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora de ingresos y gastos</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quia deleniti assumenda fugiat repudiandae non labore voluptatibus quo atque ducimus!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="flip-left">
+              <div class="card h-100">
+                <img src="./assets/img/car.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tienda de autopartes</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cupiditate eveniet rerum voluptate ut aliquid quis voluptatibus magnam sapiente corporis!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" data-aos="flip-left">
+                <img src="./assets/img/ig.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Clon de instagram</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque architecto atque quod! Dicta vitae numquam blanditiis aperiam a natus minima?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="knowledges" class="knowledges bg-dark">
+
+          <h2>Conocimientos</h2>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" data-aos="zoom-in">
+              <div class="card h-100">
+                <img src="./assets/img/htmlcss.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">HTML, CSS y BOOSTRAP</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quia deleniti assumenda fugiat repudiandae non labore voluptatibus quo atque ducimus!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="zoom-in">
+              <div class="card h-100">
+                <img src="./assets/img/javascript-&-php.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript y PHP</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cupiditate eveniet rerum voluptate ut aliquid quis voluptatibus magnam sapiente corporis!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+      <p>Westinger Design - 2021 &copy;</p>
+      <div>
+        <a href="https://api.whatsapp.com/send?phone=5491133718933" target="_blank">
+            <img src="./assets/img/wpp.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-pavon-65467516a/" target="_blank">
+          <img src="./assets/img/in.png" alt="">
+        </a>
+        <a href="#" target="_blank">
+          <img src="./assets/img/gmail.png" alt="">
+        </a>
+      </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- {
+      once: true
+    } -->
+
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
